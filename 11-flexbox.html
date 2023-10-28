@@ -93,28 +93,35 @@
       <br /><br />
 
       <!-- Align Items -->
-      <div class="d-flex align-content-end" style="height: 300px">
+      <div class="d-flex flex-column align-items-end" style="height: 300px">
         <div class="text-bg-light p-3">Flex Item</div>
         <div class="text-bg-light p-3">Flex Item</div>
         <div class="text-bg-light p-3">Flex Item</div>
       </div>
 
+      <div class="d-flex flex-column align-items-center" style="height: 300px">
+        <div class="text-bg-light p-3">Flex Item</div>
+        <div class="text-bg-light p-3">Flex Item</div>
+        <div class="text-bg-light p-3">Flex Item</div>
+      </div>
+
+
       <br /><br />
 
       <!-- Align Self -->
-      <div class="d-flex flex-column align-content-center" style="height: 300px">
-        <div class="text-bg-primary p-3">Flex Item</div>
-        <div class="text-bg-primary p-3">Flex Item</div>
-        <div class="text-bg-primary p-3">Flex Item</div>
+      <div class="d-flex flex-column" style="height: 300px">
+        <div class="text-bg-primary p-3 align-self-center">Flex Item</div>
+        <div class="text-bg-primary p-3 align-self-end">Flex Item</div>
+        <div class="text-bg-primary p-3 align-self-start">Flex Item</div>
       </div>
 
       <br /><br />
 
       <!-- Flex Grow -->
       <div class="d-flex">
-        <div class="text-bg-primary p-3">Flex Item</div>
-        <div class="text-bg-dark p-3">Flex Item</div>
-        <div class="text-bg-dark p-3">Flex Item</div>
+        <div class="text-bg-primary p-3 flex-grow-0">Flex Item</div>
+        <div class="text-bg-dark p-3 flex-grow-1">Flex Item</div>
+        <div class="text-bg-dark p-3 flex-sm-grow-1">Flex Item</div>
       </div>
 
       <!-- Don't go past here -->
