@@ -12,6 +12,9 @@
       <h1 class="mb-5">Popovers & Tooltips</h1>
 
       <!-- Popover -->
+      <button class="btn btn-danger btn-lg" id="popover" data-bs-toggle="popover"
+      data-bs-title="Popover Title"
+      data-bs-content="This is the popover content"></button>
 
       <br /><br />
 
@@ -22,5 +25,9 @@
     <div style="margin-top: 350px"></div>
 
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script>
+      const popoverEl = document.getElementById('popover');
+      const popover =new bootstrap.Popover(popoverEl);
+    </script>
   </body>
 </html>
